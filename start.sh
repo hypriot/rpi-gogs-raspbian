@@ -1,11 +1,16 @@
 #!/bin/bash
 #
 
-#SSH1 protocol
-ssh-keygen -f /etc/ssh/ssh_host_key -N '' -t rsa1
-#SSH2 protocol
-ssh-keygen -f /etc/ssh/ssh_host_rsa_key -N '' -t rsa
-ssh-keygen -f /etc/ssh/ssh_host_dsa_key -N '' -t dsa
+# regenerate ssh host keys
+
+rm /etc/ssh/ssh_host_*
+# SSH2 protocol
+ssh-keygen -t dsa -N "" -f /etc/ssh/ssh_host_dsa_key
+ssh-keygen -t rsa -N "" -f /etc/ssh/ssh_host_rsa_key
+ssh-keygen -t ecdsa -N "" -f /etc/ssh/ssh_host_ecdsa_key
+
+# SSH1 protocol 
+#ssh-keygen -f /etc/ssh/ssh_host_key -N '' -t rsa1
 
 #ssh-keygen -A
 /etc/init.d/ssh start
