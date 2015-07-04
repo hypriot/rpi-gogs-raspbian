@@ -10,6 +10,7 @@ Raspberry Pi compatible Docker Image with a minimal `gogs git` server.
 - [BLOG with tutorial](http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/)
 - [Source Project Page](https://github.com/hypriot)
 - [Source Repository](https://github.com/hypriot/rpi-gogs-raspbian)
+- [Dockerfile](https://github.com/hypriot/rpi-gogs-raspbian)
 
 ## Start a gogs git server
 ```bash
