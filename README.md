@@ -1,8 +1,4 @@
-# rpi-gogs-raspbian
-
-[![dockeri.co](http://dockeri.co/image/hypriot/rpi-gogs-raspbian)](https://registry.hub.docker.com/u/hypriot/rpi-gogs-raspbian/)
-
-[![Build Status](http://armbuilder.hypriot.com/api/badge/github.com/hypriot/rpi-gogs-raspbian/status.svg?branch=master)](http://armbuilder.hypriot.com/github.com/hypriot/rpi-gogs-raspbian)
+# rpi-gogs-raspbian [![Build Status](http://armbuilder2.hypriot.com/api/badge/github.com/hypriot/rpi-gogs-raspbian/status.svg?branch=master)](http://armbuilder.hypriot.com/github.com/hypriot/rpi-gogs-raspbian)
 
 Raspberry Pi compatible Docker Image with a minimal `gogs git` server.
 
